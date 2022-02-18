@@ -34,10 +34,12 @@ d.Turn sentiment into categorical value
 When we dealing with categorical data, we can turn these text categories into numbers. For example, yes and no categories can be turn into 1 and 0. In these case, we have the negative and positive sentiment. We are going to turn them into values of 0 and 1.
 
 3. WORD EMBEDDING TECHNIQUE
+
 Now, before we use the machine learning to further implementing the sentiment analysis, we need to turn those texts into numerical values, this is known as vector representative for the words.
 We are using Tf-idf. It measures how important is the term across all documents and we find out how important each word is in the document. To apply this technique, we can use TdidfVectorizer from sklearn.
 
 4.ANALYSING MODELS
+
 We are training the folllowing models and finding out which one gives the maximum accuracy.
 a.Ridge Classifier
 b.MultinomialNB
@@ -45,6 +47,7 @@ c.Linear Regression
 We also can use F1 scores and select the model with highest average F1 score.
 
 5.SELECT MODEL AND RUN ACCURACY TEST
+
 To measure the accuracy of the prediction, one of the simplest technique is the accuracy test.
 
 CONCLUSION
